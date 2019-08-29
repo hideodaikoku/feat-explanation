@@ -41,7 +41,10 @@ p{
     padding-bottom: 5em;
 }
 .l-container-feature{
-    margin: 3em;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: .0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #page-container {
@@ -55,8 +58,9 @@ button{
     box-shadow: none;
     width: 10em;
     height: 5em;
-    margin-left: 70em;
-    background-color: rgb(46, 136, 75);
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(46, 109, 136);
     
 }
 button:hover{
@@ -75,6 +79,8 @@ footer{
     text-align: center;
 }
 audio{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    /* display: block; */
     border-radius: 2em;
 }

@@ -16,6 +16,7 @@ body {
     position:relative;
     box-sizing: border-box;
     min-height:100%;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, p{
